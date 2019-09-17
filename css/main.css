@@ -1,13 +1,14 @@
 html {
   background-color: #fff;
-  font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 nav a {
   text-align: right;
   color: #005e76;
-  text-decoration: underline;
+  border-bottom: #8bc9d9 2px solid;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -21,9 +22,8 @@ nav a:hover {
   width: 100%;
 }
 
-article {
-  border-top: #e2e2e2 1px solid;
-  border-bottom: #e2e2e2 1px solid;
+hr {
+  border: #e2e2e2 1px solid;
 }
 
 h4 {
@@ -41,6 +41,23 @@ h4 {
   color: #0084a6;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .part-3 {
+    display: inline;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
+
+  .box-wrap {
+    width: 70%;
+    text-align: center;
+  }
+
+  article {
+    text-align: center;
+  }
 
 }
